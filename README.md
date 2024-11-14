@@ -1,4 +1,4 @@
-# SharedPricing2024
+# Pricing Shared Rides
 
 ## Project Description
 This repository provides the source code to reproduce all experiments in the paper [Pricing Shared Rides](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4551405). Please cite the paper if you use any materials from this repository.
