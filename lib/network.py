@@ -1,18 +1,14 @@
-# This file contains the `Network` class and functions that help construct the network object.
+# This file contains the class and functions that help construct the network object.
 
 import osmnx as ox
 import networkx as nx
 import numpy as np
-import pandas as pd
 import matplotlib.pyplot as plt
-import matplotlib.cm as cm
-import matplotlib.colors as colors
-import copy
 import graph_tool.all as gt
 import time
 import sys
 import os
-
+# change the path to the root directory
 sys.path.append(os.getcwd() + "/..")
 
 

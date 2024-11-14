@@ -2,11 +2,8 @@
 
 # external packages
 import numpy as np
-import osmnx as ox
-import geopandas as gpd
 import pickle
 from collections import defaultdict
-
 
 # data set key
 TRAINING_SET_KEY = 1
@@ -17,9 +14,10 @@ TEST_SET_KEY = 3
 SYN_DATA_KEY = 0
 REAL_DATA_KEY = 1
 
-# time window key
-MON_PEAK = "MON-PEAK"
-SAT_NONPEAK = "SAT-NONPEAK"
+# pricing policy keys
+MATCH_KEY = "match"
+STATIC_KEY = "static"
+ITERATIVE_KEY = "iterative"
 
 
 def arrive(state, i):
